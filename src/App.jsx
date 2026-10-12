@@ -2,6 +2,7 @@ import { ArrowRight, MoveRight } from "lucide-react"
 import hapyGif from "../public/happy-bear-transparent.gif"
 import tirefGif from "../public/sleepy-bear-transparent.gif"
 import angryGif from "../public/angry-character-transparent.gif"
+import fotoGIFF from "../public/mood-screen-transparent.webp"
 function App() {
   return (
     <div className="container">
@@ -46,7 +47,7 @@ function App() {
               </div>
               {/* RIGHT */}
               <div className="right">
-                <img src="/public/mood-screen-transparent.webp" alt="modal" className="giff" />
+                <img src={fotoGIFF} alt="modal" className="giff" />
               </div>
             </div>
           </div>
